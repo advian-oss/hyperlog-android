@@ -49,6 +49,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
+import java.net.URL;
+import java.util.Base64;
 
 class HLHTTPMultiPartPostRequest<T> extends Request<T> {
 
